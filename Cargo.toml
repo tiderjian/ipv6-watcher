@@ -1,0 +1,16 @@
+[package]
+name = "ipv6-watcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes = "0.7"
+anyhow = "1.0.94"
+base64 = "0.22.1"
+block-modes = "0.8"
+dotenv = "0.15.0"
+hex = "0.4.3"
+regex = "1.11.1"
+reqwest = "0.12.9"
+sha2 = "0.10.8"
+tokio = { version = "1.42.0", features = ["macros", "rt-multi-thread"] }
